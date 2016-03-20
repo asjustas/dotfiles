@@ -1,0 +1,6 @@
+[push]
+	default = simple
+[core]
+	editor = nano
+[alias]
+	lg=log --graph --oneline --decorate --all -n 50
