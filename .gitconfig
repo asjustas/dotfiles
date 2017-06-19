@@ -4,3 +4,4 @@
 	editor = nano
 [alias]
 	lg=log --graph --oneline --decorate --all -n 50
+	stash-all = stash save --include-untracked
