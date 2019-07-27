@@ -2,5 +2,7 @@
 	default = simple
 [core]
 	editor = nano
+	excludesfile = ~/global.gitignore
 [alias]
 	lg=log --graph --oneline --decorate --all -n 50
+	stash-all = stash save --include-untracked
